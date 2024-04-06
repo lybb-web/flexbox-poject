@@ -3,6 +3,12 @@
     color: #F9FAF8;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 ul {
     list-style-type: none;
     font-size: 18px;
@@ -11,7 +17,15 @@ ul {
 }
 
 .hero, .copyright {
-    background-color: #1F2937
+    background-color: #1F2937;
+     color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+     color: #F9FAF8;
+     display: flex;
+     flex: 1;
 }
 
 .title {
@@ -41,6 +55,10 @@ ul {
     color: #1F2937;
 }
 
+.action {
+
+}
+
 button, .end {
     background-color: #3882F6
 }
@@ -50,3 +68,7 @@ a {
     color: #E5E7EB;
 }
 
+
+div {
+    border: 1px solid green;
+}
