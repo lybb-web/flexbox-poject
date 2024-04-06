@@ -1,0 +1,52 @@
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    
+
+}
+
+.hero, .copyright {
+    background-color: #1F2937
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button, .end {
+    background-color: #3882F6
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
