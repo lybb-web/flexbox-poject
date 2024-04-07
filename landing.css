@@ -60,6 +60,8 @@ ul {
 }
 
 
+
+
 .awesome-website { 
     display: flex;
     flex-direction: column;
@@ -77,12 +79,43 @@ ul {
 
 .random-info { 
     flex: 1;
+    display: flex;
+    justify-content: column;
+    justify-content: center;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+    gap: 16px;
+}
+
+.square-text-pair {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    align-items: center;
+}
+
+.square-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blue-square {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    display: flex;
+}
+
+.image-subtext {
+    width: 200px;
+    display: flex;
+    text-align: center;
 }
 
 .quote-section {
@@ -111,7 +144,7 @@ a {
 
 
 div {
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 
 
