@@ -126,7 +126,9 @@ ul {
 }
 
 .quote-box {
-    margin: 200px 550px;
+    /* margin: 200px 550px; */
+    height: 400px;
+    width: 800px;
     display: flex;
     justify-content: center;
     flex-direction: column;
